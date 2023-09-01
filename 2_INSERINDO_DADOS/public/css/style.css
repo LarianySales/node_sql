@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #c5c5eb;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 450px;
+    margin: 0 auto;
+
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.form-control label input {
+    padding: 5px;
+}
+
+input {
+    border: none;
+    padding: 8px;
+}
+
+input:focus {
+    background-color: rgb(192, 214, 255);
+}
