@@ -1,0 +1,14 @@
+<h1>Mís libros</h1>
+<div class="books_container">
+    <a href="/">Adicionar livro:</a>
+{{#each books}}
+<div>📖 {{this.id}} 
+    - 
+    <span class="bold">
+        <a href="/books/{{this.id}}">{{this.title}}</a>
+    </span>
+    - 
+    {{this.nm_paginas}} páginas</div>
+{{/each}}
+
+    </div>
